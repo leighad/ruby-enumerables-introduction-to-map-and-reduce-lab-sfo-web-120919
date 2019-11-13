@@ -1,7 +1,14 @@
 # My Code here.... **DO NOT USE MAP OR REDUCE**
 def map_to_negativize(array)
   # array.map { |el| el * -1}
+  neg_array = []
   
+  i = 0 
+  while i < array.length
+    neg_array << array[i] * -1
+    i += -1
+  end
+  return neg_array
 end
 
 def map_to_no_change
