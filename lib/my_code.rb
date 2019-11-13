@@ -60,7 +60,6 @@ def reduce_to_all_true(array)
     end
     i += 1 
   end
-  return result
 end
 
 def reduce_to_any_true(array)
