@@ -5,7 +5,7 @@ def map_to_negativize(array)
   
   i = 0 
   while i < array.length do
-    neg_array << array[i] * -1
+    neg_array.push(array[i] * -1)
     i += -1
   end
   return neg_array
