@@ -14,7 +14,7 @@ def map_to_no_change(array)
   return array
 end
 
-def map_to_double
+def map_to_double(array)
   
 end
 
