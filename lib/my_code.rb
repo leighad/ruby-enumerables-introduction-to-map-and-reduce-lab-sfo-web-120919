@@ -2,7 +2,6 @@
 def map_to_negativize(array)
   # array.map { |el| el * -1}
   neg_array = []
-  
   i = 0 
   while i < array.length do
     neg_array.push(array[i] * -1)
