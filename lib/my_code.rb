@@ -60,7 +60,7 @@ def reduce_to_all_true(array)
   # end
   i = 0
   while i < array.length do
-    return false if array[i] != true
+    return false if !array[i]
     i += 1
   end
   return true
