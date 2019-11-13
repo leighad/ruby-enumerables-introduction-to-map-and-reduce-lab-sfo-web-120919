@@ -34,15 +34,15 @@ def map_to_square(array)
   return squared_array
 end
 
-def reduce_to_total
+def reduce_to_total(array)
   
 end
 
-def reduce_to_all_true
+def reduce_to_all_true(array)
   
 end
 
-def reduce_to_any_true
+def reduce_to_any_true(array)
   
 end
 
