@@ -15,7 +15,13 @@ def map_to_no_change(array)
 end
 
 def map_to_double(array)
-  
+  double_array = []
+  i = 0 
+  while i < array.length do 
+    double_array.push( array[i] * 2 )
+    i += 1 
+  end
+  return double_array
 end
 
 def map_to_square
