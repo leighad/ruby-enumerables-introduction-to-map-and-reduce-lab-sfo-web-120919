@@ -2,13 +2,13 @@
 def map_to_negativize(array)
   # array.map { |el| el * -1}
   
-  neg_array = []
+  new_array = []
   i = 0 
   while i < array.length do
-    neg_array.push( array[i] * -1 )
+    new_array.push( array[i] * -1 )
     i += -1
   end
-  return neg_array
+  return new_array
   
   # new = []
   # i = 0
