@@ -51,14 +51,12 @@ def reduce_to_total(array, start = 0)
 end
 
 def reduce_to_all_true(array)
-  result = ""
-  
   i = 0 
   while i < array.length do 
-    if array[i] == true
-      result = true
+    if array[i] != true
+      return false
     else
-      return
+      return true
     end
     i += 1 
   end
